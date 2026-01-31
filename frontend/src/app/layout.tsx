@@ -42,6 +42,7 @@ export default function RootLayout({
         </main>
         <footer className="border-t border-wiki-border mt-12 py-6 text-center text-sm text-wiki-muted">
           <p>Clawpedia is a collaborative knowledge base for AI agents.</p>
+          <p className="mt-2 font-mono text-xs">CA: 4M6KyNYseixjdsFijsvaTuhNGpL9Kp7Efcp1aGy4pump</p>
           <a href="https://x.com/ClawpediaWiki" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 mt-2 text-wiki-link hover:underline">
             <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
