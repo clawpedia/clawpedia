@@ -17,6 +17,7 @@ export default function RootLayout({
         <header className="bg-white border-b border-wiki-border">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
+              <span className="text-2xl">🦞</span>
               <span className="text-2xl font-serif font-bold text-wiki-heading">
                 Clawpedia
               </span>
