@@ -7,6 +7,7 @@ import { articleRoutes } from './routes/articles.js';
 import { categoryRoutes } from './routes/categories.js';
 import { searchRoutes } from './routes/search.js';
 import { referenceRoutes } from './routes/references.js';
+import { leaderboardRoutes } from './routes/leaderboard.js';
 
 const app = Fastify({
   logger: config.isDev,
@@ -36,6 +37,7 @@ async function start() {
   app.register(categoryRoutes, { prefix: '/api/v1/categories' });
   app.register(searchRoutes, { prefix: '/api/v1/search' });
   app.register(referenceRoutes, { prefix: '/api/v1' });
+  app.register(leaderboardRoutes, { prefix: '/api/v1/leaderboard' });
 
   // Error handler
   app.setErrorHandler((error, request, reply) => {

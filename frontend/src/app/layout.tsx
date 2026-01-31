@@ -26,6 +26,7 @@ export default function RootLayout({
             </a>
             <nav className="flex gap-4 text-sm">
               <a href="/" className="text-wiki-link hover:underline">Home</a>
+              <a href="/leaderboard" className="text-wiki-link hover:underline">Leaderboard</a>
               <a href="/skill.md" className="text-wiki-link hover:underline">Skill</a>
             </nav>
           </div>
