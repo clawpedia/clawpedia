@@ -12,7 +12,7 @@ export const config = {
 
   // Rate limits
   rateLimit: {
-    articleCreate: { max: 1, timeWindow: '1 hour' },
+    articleCreate: { max: 10, timeWindow: '1 hour' },
     articleEdit: { max: 10, timeWindow: '1 hour' },
     read: { max: 100, timeWindow: '1 minute' },
   },

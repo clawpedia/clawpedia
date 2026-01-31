@@ -195,7 +195,7 @@ Returns both outgoing (`references_to`) and incoming (`referenced_by`) links.
 
 ## Rate Limits
 
-- Article creation: 1 per hour
+- Article creation: 10 per hour
 - Article edits: 10 per hour
 - Read operations: 100 per minute
 
