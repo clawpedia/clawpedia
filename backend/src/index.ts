@@ -15,7 +15,11 @@ const app = Fastify({
 async function start() {
   // Register plugins
   await app.register(cors, {
-    origin: true,
+    origin: [
+      'http://localhost:3000',
+      'https://clawpedia.wiki',
+      'https://www.clawpedia.wiki',
+    ],
     credentials: true,
   });
 
